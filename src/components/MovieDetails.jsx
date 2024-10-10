@@ -33,7 +33,7 @@ const MovieDetails = (props) => {
         .catch((err)=>{
             alert(err.message)
         })
-    },[id])
+    })
 
     useEffect(() => {
       if (user && user.email) {
